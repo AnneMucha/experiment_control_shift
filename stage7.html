@@ -1,0 +1,150 @@
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="cache-control" content="no-store" />
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="must-revalidate" />	
+	<meta http-equiv="expires" content="0" />
+	<title>Sprachstudie</title>
+	<style type="text/css">
+.feld { background-color:#ddd; width:100px; border:6px solid #ddd;font-size:1em; }
+.text  {font-size:1em; font-weight:550}
+td.bew {width=110px; background-color:#ddd;}
+td.satz {width=890px; background-color:#D8D8D8;}
+.feedback { background-color:#ddd; width:800px; border:6px solid #ddd;font-size:1em; }
+.Weiter {font-size:12pt; font-weight:500; }
+td.satz2 {width=890px; background-color:#BDBDBD; font-size:1.2em; }
+</style>
+</head>
+  <body>
+    <div  style="width:100%">
+      <div align="left" style="width:800px;margin:auto">
+	<p align="right">
+	  <progress>
+	</p>
+	<form action="next" method="post">
+	  <center>
+	  <hr noshade width="800" size="3" align="left">
+	    <p>
+	      <table width="100%" bgcolor="lightgrey"> 
+	      <tr>
+		<td align="center" width="100%"> <font size=4><b> varname1 </b></font>
+	      </tr>
+	      </table> 
+	    </p>
+	    <hr noshade width="800" size="3" align="left">
+	    <br>
+	<b> Wie akzeptabel ist der Satz? </b>
+	    <br>
+	    <br>
+	    <div style="border:1px solid black;">
+	      <table border="0" rules="none">
+		<colgroup>
+		  <col width="180">
+		  <col width="30">
+		  <col width="30">
+		  <col width="30">
+		  <col width="30">
+		  <col width="30">
+		  <col width="30">
+		  <col width="30">
+		  <col width="180">
+		  <col>
+		</colgroup>
+		<tr>
+		  <td> </td> 
+		  <td align="center"> <input type="radio" name="relevance" value="1" required="required"> </td> 
+		  <td align="center"> <input type="radio" name="relevance" value="2"> </td> 
+		  <td align="center"> <input type="radio" name="relevance" value="3"> </td> 
+		  <td align="center"> <input type="radio" name="relevance" value="4"> </td> 
+		  <td align="center"> <input type="radio" name="relevance" value="5"> </td> 
+		  <td align="center"> <input type="radio" name="relevance" value="6"> </td> 
+		  <td align="center"> <input type="radio" name="relevance" value="7"> </td> 
+		  <td> </td> 
+		</tr>
+		<tr>
+		  <td align="center">(inakzeptabel) </td>
+		  <td align="center"> 1 </td>
+		  <td align="center"> 2 </td>
+		  <td align="center"> 3 </td>
+		  <td align="center"> 4 </td>
+		  <td align="center"> 5 </td>
+		  <td align="center"> 6 </td>
+		  <td align="center"> 7 </td>
+		  <td align="center"> (voll akzeptabel) </td>
+		</tr>
+	      </table>
+		  </div>
+	  </center> 
+      
+      <br>
+	  <center>
+	 
+	    <br>
+	<b> varname1 </b>
+	    <br>
+	    <br>
+		<div>
+	      <table border="0" rules="none">
+	
+		<tr> 
+		  <td align="center"> <input type="hidden" name="answer1" value="0" /> <input type="checkbox" name="answer1" value="1" > </td> 
+		  <td align="left">varname1</td> 
+		  </tr>
+		  <tr> 
+		  <td align="center"> <input type="hidden" name="answer2" value="0" /> <input type="checkbox" name="answer2" value="1" > </td> 
+		  <td align="left">varname1</td> 
+		  </tr>
+		  <tr> 
+		  <td align="center"> <input type="hidden" name="answer3" value="0" /> <input type="checkbox" name="answer3" value="1" > </td> 
+		  <td align="l">varname1</td> 
+		  </tr>
+		  <tr> 
+		  <td align="center"> <input type="hidden"   name="answer4" value="0" /> <input type="checkbox" name="answer4" value="1" > </td> 
+		  <td align="l">varname1</td> 
+		  </tr>
+	      </table>
+		  </div>	  
+	  </center> 
+      </div>
+	  </center>
+      <br>
+	  
+	  
+	  <p align="center">
+	<input type="submit" name ="weiter" value = "weiter">
+      </p>
+      </form>
+      <br>
+	  
+	  
+	  <center>
+<table><tbody>
+<tr><td>
+&nbsp;
+</td><td>
+&nbsp;
+</td></tr>
+<tr><td>Kommentar (optional)</td><td>
+&nbsp;
+</td>
+</tr>
+<tr><td> 
+<textarea name="feedback" class="feedback"></textarea></td><td>
+&nbsp;
+</td></tr>
+</tbody></table>
+		  </center> 
+	    
+      
+    </div>
+  </body>
+</html>
+
+<!-- 
+OnExp Variables:
+NumberOfRepetitions=52;
+varname1=input1.txt;
+-->
